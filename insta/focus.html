@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .navbar{
+            width: 100vw;
+            height: 60px;
+            background-color: aqua;
+        }
+        .navbar a{
+            text-decoration: none;
+            margin: 15px;
+        }
+        .container{
+            height: 50vh;
+            width: 150px;
+            background-color: black;
+            color: whitesmoke;
+            visibility:hidden;
+            /* display: none; */
+            text-align: center;
+            border-radius: 20px;
+        }
+        button:focus ~ .container{
+            background-color: black;
+            visibility:visible;
+            /* display: block; */
+        }
+        button img{
+            height: 40px;
+            margin-top: 11px;
+        }
+        .menu{
+            display: inline-block;
+            margin-top: 10px;
+        }
+            
+
+    </style>
+
+</head>
+<body>
+    <nav class="navbar">
+        <button><img src="menu.ico" alt=""></button>
+        <a href=""><span class="container1">HTML</span></a>
+        <a href=""><span class="container1">CSS</span></a>
+        <a href=""><span class="container1">JAVASCRIPT</span></a>
+        <a href=""><span class="container1">REACT</span></a>
+        <div class="container">
+            
+            <h5><span class="menu">Home</span></h5>
+            <h5><span class="menu">About</span ></h5>
+            <h5><span class="menu">Contact</span></h5>
+            <h5><span class="menu">Help</span></h5>
+        </div>
+    </nav>
+
+    <div style="visibility: hidden;">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolorem corporis itaque adipisci, deleniti perferendis, minima provident saepe tempore dolor maiores reiciendis laborum laudantium ipsum cum suscipit in nihil! Quibusdam.</p>
+    </div>
+
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolorem corporis itaque adipisci, deleniti perferendis, minima provident saepe tempore dolor maiores reiciendis laborum laudantium ipsum cum suscipit in nihil! Quibusdam.</p>
+    </div>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolorem corporis itaque adipisci, deleniti perferendis, minima provident saepe tempore dolor maiores reiciendis laborum laudantium ipsum cum suscipit in nihil! Quibusdam.</p>
+    </div>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolorem corporis itaque adipisci, deleniti perferendis, minima provident saepe tempore dolor maiores reiciendis laborum laudantium ipsum cum suscipit in nihil! Quibusdam.</p>
+    </div>
+                        
+            
+    
+</body>
+</html>

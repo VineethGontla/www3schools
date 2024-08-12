@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 80vw;
+            height: 95vh;
+            border: 2px solid red;
+            display: grid;
+            grid-template-columns: 20% 80% 20%;
+            grid-template-rows: 20% 80% 20%;
+        }
+
+        .Header{
+            border: 2px solid green;
+            grid-column: 1/4;
+            background-color: aqua;
+        }
+        .Navbar{
+            border: 2px solid palevioletred;
+            grid-row: 2/3;
+        }
+        .Content{
+            border: 2px solid rebeccapurple;
+        }
+        .Aside{
+            border: 2px solid rosybrown;
+        }
+        .Footer{
+            border: 2px solid wheat;
+            grid-column: 1/4;
+        }
+
+        .container>div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: larger
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="Header">Header</div>
+        <div class="Navbar">Navbar</div>
+        <div class="Content">Content</div>
+        <div class="Aside">Aside</div>
+        <div class="Footer">Footer</div>
+    </div>
+    
+</body>
+</html>

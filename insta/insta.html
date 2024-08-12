@@ -16,6 +16,8 @@
             margin: auto;
             background-color:whitesmoke;
             overflow: scroll;
+            scrollbar-width: none;
+
         }
         .container1{
             background-color: gold;
@@ -43,6 +45,7 @@
         .left{
             position:absolute;
             margin-top: 10px;
+            margin-left: 7px;
             
 
         }
@@ -50,8 +53,38 @@
             position: absolute;
             right: 0;
             margin-right: 10px;
-           
         }
+        .main1{
+            height: 200px;
+            width: 300px;
+            background-color: rgb(107, 109, 172);
+            border-radius: 30px;
+            margin-top: 10px;
+            display: none;
+            
+            
+            
+
+        }
+
+        .main2 .img3{
+            padding-left: 120px;
+            
+
+            
+            
+        }
+        .main2 .img1{
+            margin-left: 120px;
+            
+        }
+
+      
+
+  
+
+            
+
        
         
         
@@ -60,10 +93,13 @@
         
         
             
-        
+    img:hover~.main1{
+        display: block;
+        background-color: black;
+    }    
             
 
-      
+    
             
             
   
@@ -74,13 +110,30 @@
 <body>
     <div class="container">
         <div class="container1">
-            <img height="20px" src="WhatsApp Image 2024-08-02 at 11.30.15_18a7e12a.jpg" alt="">
+          <img height="23px" src="WhatsApp Image 2024-08-02 at 11.30.15_18a7e12a.jpg" alt="">
             <span class="name"><b>Sai Vineeth</span>
             <span class="name1">
                 <img height="30px" src="phone.svg" alt="">
                 <img style="margin-left: 8px;" height="30px" src="video-call (2).svg" alt="">
             </span>
+            
+            <div class="main1">
+                <div class="main2">
+                    <span class="img1"><img height="50px" src="WhatsApp Image 2024-08-02 at 11.30.15_18a7e12a.jpg" alt=""></span>
+                </div>
+                <p style="text-align: center;">G.sai vineeth</p>
+                <div class="main2">
+                    <span class="img3">
+                    <img height="30px" src="video-call (2).svg" alt="">
+                    <img src="phone.svg" alt="">
+                    </span>
+                </div>
+            </div>
         </div>
+
+            
+
+
 
         <div class="day1">
             <span class="july">july 29</span> <br>

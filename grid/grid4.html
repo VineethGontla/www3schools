@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 95vw;
+            height: 95vh;
+            border: 2px solid red;
+            display: grid;
+            grid-template-areas: 
+            'header header header header header header'
+            'smallbox1 smallbox2 smallbox3 sidebar'
+            'maincontent maincontent'
+            'footer footer footer footer footer footer';
+        }
+
+        .header{
+            background-color: aqua;
+            grid-area: header;
+            width: 500px;
+        }
+        .smallbox1{
+            
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">Header</div>
+        <div class="smallbox1">small box1</div>
+        <div class="smallbox2">small box2</div>
+        <div class="smallbox3">small box3</div>
+        <div class="sidebar">sidebar</div>
+        <div class="maincontent">main content</div>
+        <div class="footer">Footer</div>
+
+    </div>
+</body>
+</html>

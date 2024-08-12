@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 95vh;
+            width: 95vw;
+            display: grid;
+            grid-template-columns: 20% 20% 20% 20%;
+            grid-template-rows: 10% 10% 10% 10% 10%;
+            border: solid red;
+        }
+        .header{
+            background-color: aqua;
+
+
+        }
+        .menu{
+            background-color: aquamarine;
+            grid-column: 2/5;
+        }
+        .hero{
+            background-color: beige;
+            grid-column: 1/5;
+        }
+        .main{
+            background-color: blue;
+            grid-row: 3/5;
+            grid-column: 1/3;
+        }
+        .extra{
+            background-color: blueviolet;
+            grid-column: 4/5;
+            
+        }
+        .image{
+            background-color: brown;
+            grid-column: 4/5;
+        }
+        .banner{
+            background-color: cadetblue;
+            grid-column: 1/5;
+        }
+        .container>div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">Header</div>
+        <div class="menu"> Menu</div>
+        <div class="hero"> Hero</div>
+        <div class="main">Main</div>
+        <div class="extra">Extra</div>
+        <div class="image">Image</div>
+        <div class="banner">Banner</div>
+    </div>
+</body>
+</html>
